@@ -24,14 +24,30 @@ p{
 	font-size: 1em;
 }
 
-li:first-child{
-	background: url("https://raw.githubusercontent.com/becodeorg/turing-2/master/Parcours/01-La-prairie/html-css/progressive-enhancement/bien.png") contain no-repeat right;
+ul{
+	max-width:70%;
 }
+
+li{
+	line-height: 3em
+}
+
+li:first-child{
+	background: url("imgs/PouceUp.png") no-repeat right center;
+	font-weight: bold;
+}
+
+li:nth-child(2){
+	background: url("imgs/PouceDown.png") no-repeat right center;
+}
+
+li:nth-child(3){
+	background: url("imgs/chat.png") no-repeat right center;
+}
+
 
 tr:nth-child(even){ background-color: white}
 tr:nth-child(odd){ background-color: grey}
-
-
 
 blockquote{
 	width: 50%;
