@@ -7,7 +7,7 @@ body{
     margin-left: 100px;
     border: 1px solid #FF0000;    
 	background-image: url("https://images.wallpaperscraft.com/image/flower_pink_petals_bud_close_up_119905_1920x1080.jpg"); /* no-repeat bottom right;*/
-	background-size: 19200px 10800px;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -16,10 +16,22 @@ img{
 	max-width: 90%;
 }
 
+header{
+	background-color: yellow
+}
 p{
 	font-family: Arial, sans-serif;
 	font-size: 1em;
 }
+
+li:first-child{
+	background: url("https://raw.githubusercontent.com/becodeorg/turing-2/master/Parcours/01-La-prairie/html-css/progressive-enhancement/bien.png") contain no-repeat right;
+}
+
+tr:nth-child(even){ background-color: white}
+tr:nth-child(odd){ background-color: grey}
+
+
 
 blockquote{
 	width: 50%;
@@ -28,7 +40,28 @@ blockquote{
 	background-color: #DCDCDC;
 	border-left:3px solid #842E1B;
 	padding: 30px;
+	font-style: oblique;
 }
+
+.mal{
+	text-transform: uppercase;
+	color: red
+}
+
+.bien {
+	text-transform: uppercase;
+	color : green;
+}
+
+.plebis {
+	border-color: yellow;
+}
+
+.vetus{
+	border-color: magenta;
+}
+
+
 
 
 	/*filter: 
@@ -40,3 +73,4 @@ blockquote{
 	background-position: center;
 	background-repeat: no-repeat;
 */
+
