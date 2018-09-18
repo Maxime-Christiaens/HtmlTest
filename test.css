@@ -1,13 +1,42 @@
+
+body{
+	max-width: 90%;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 1px solid #FF0000;    
+	background-image: url("https://images.wallpaperscraft.com/image/flower_pink_petals_bud_close_up_119905_1920x1080.jpg"); /* no-repeat bottom right;*/
+	background-size: 19200px 10800px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+img{
+	max-width: 90%;
+}
+
 p{
-	font-size: 12px;
 	font-family: Arial, sans-serif;
-	color: purple;
+	font-size: 1em;
 }
 
-.mal{
-	font-size: 80px;
+blockquote{
+	width: 50%;
+	margin: 80px auto 80px; 
+	font-size: 1.6em;
+	background-color: #DCDCDC;
+	border-left:3px solid #842E1B;
+	padding: 30px;
 }
 
-.bien {
-	
-}
+
+	/*filter: 
+	contrast(20%);
+	background-color: -webkit-linear-gradient(-15deg, rgb(37, 73, 106), rgb(133, 167, 200));
+	background-color: linear-gradient(-15deg, rgb(37, 73, 106), rgb(133, 167, 200));
+	background-image: url("https://images.wallpaperscraft.com/image/flower_pink_petals_bud_close_up_119905_1920x1080.jpg");
+	background-size: cover
+	background-position: center;
+	background-repeat: no-repeat;
+*/
