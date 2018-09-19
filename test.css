@@ -32,12 +32,22 @@ body{
 
 .main-menu ul li{
 	margin: 0 12px;
-
+	border-radius: 10px;
+	padding: 0 15px;
+	border: 3px solid white;
 }
 
-.main-menu ul li a{
+/*Icones*/
+.main-menu ul li i{
+	padding-right: 10px;
+	position: relative;
+	bottom: -10%;
+}
+
+.main-menu ul li a{ 
 	text-decoration: none;
-	color: white
+	color: white;
+
 }
 
 .main-menu ul li:hover{
@@ -45,7 +55,7 @@ body{
 	}/*Style hover*/
 
 .main-menu ul li:active{
-	background-color: yellow;
+	filter: invert(100%);
 	}	/*Syte quand activer */
 
 img{
@@ -61,10 +71,11 @@ img{
 	width:250px;
 	font-weight:bold;
 	color: #333300;
-	position: absolute;
+	position: relative;
+	/*position: absolute;
 	top: 0;
 	right: 50%;
-	transform: translateX(50%);
+	transform: translateX(50%); */
 
 	  /* rajoute le code nécessaire ici*/
 }
