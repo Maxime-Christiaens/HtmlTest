@@ -1,4 +1,3 @@
-
 body{
 	max-width: 90%;
 	margin-top: 50px;
@@ -6,18 +5,80 @@ body{
     margin-right: 100px;
     margin-left: 100px;
     border: 1px solid #FF0000;    
-	background-image: url("https://images.wallpaperscraft.com/image/flower_pink_petals_bud_close_up_119905_1920x1080.jpg"); /* no-repeat bottom right;*/
+/*	background-image: url("https://images.wallpaperscraft.com/image/flower_pink_petals_bud_close_up_119905_1920x1080.jpg"); /* no-repeat bottom right;
 	background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
+	background: -webkit-linear-gradient(123deg, rgb(139, 193, 241), rgb(6, 41, 63));
+	background: linear-gradient(123deg, rgb(139, 193, 241), rgb(6, 41, 63));
+	font-family: 'Roboto', sans-serif;
 }
 
+.main-menu{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: #737373;
+	color: white;
+}
+
+.main-menu ul{
+    margin: 0;
+    padding: 0;	
+    display: flex;
+    font-size: 0.85em;
+    list-style: none;
+}
+
+.main-menu ul li{
+	margin: 0 12px;
+
+}
+
+.main-menu ul li a{
+	text-decoration: none;
+	color: white
+}
+
+.main-menu ul li:hover{
+	background-color: #004080;
+	}/*Style hover*/
+
+.main-menu ul li:active{
+	background-color: yellow;
+	}	/*Syte quand activer */
+
 img{
-	max-width: 90%;
+	max-width: 30%;
+	height: auto;
+	margin: 5px;
+}
+
+.notif{
+	background:#FFFFDD;
+	padding:.5rem 1rem;
+	border:3px solid #DDDDCC;
+	width:250px;
+	font-weight:bold;
+	color: #333300;
+	position: absolute;
+	top: 0;
+	right: 50%;
+	transform: translateX(50%);
+
+	  /* rajoute le code nécessaire ici*/
+}
+
+.image:nth-child(even){
+	float: right;
+}
+
+.image:nth-child(odd){
+	float: left;
 }
 
 header{
-	background-color: yellow
+	background-color: grey;
 }
 p{
 	font-family: Arial, sans-serif;
@@ -29,34 +90,34 @@ ul{
 }
 
 li{
-	line-height: 3em
+	line-height: 3em;
 }
 
-li:first-child{
+.pouce:first-child{
 	background: url("imgs/PouceUp.png") no-repeat right center;
 	font-weight: bold;
 }
 
-li:nth-child(2){
+.pouce:nth-child(2){
 	background: url("imgs/PouceDown.png") no-repeat right center;
 }
 
-li:nth-child(3){
+.pouce:nth-child(3){
 	background: url("imgs/chat.png") no-repeat right center;
 }
-
 
 tr:nth-child(even){ background-color: white}
 tr:nth-child(odd){ background-color: grey}
 
 blockquote{
-	width: 50%;
+	width: 50%; 
 	margin: 80px auto 80px; 
-	font-size: 1.6em;
-	background-color: #DCDCDC;
-	border-left:3px solid #842E1B;
-	padding: 30px;
-	font-style: oblique;
+	font-size: 1.6em; 
+	background-color: #DCDCDC; 
+	border-left:3px solid #842E1B; 
+	padding: 30px; 
+	font-style: oblique; 
+	clear: both;
 }
 
 .mal{
@@ -73,8 +134,24 @@ blockquote{
 	border-color: yellow;
 }
 
+/*
+blockquote:nth-child(1){
+	clear: both;
+}
+*/
+
 .vetus{
 	border-color: magenta;
+}
+
+.notification{
+  background:#FFFFDD;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width:250px;
+  font-weight:bold;
+  color: #333300;
+  /* rajoute le code nécessaire ici*/
 }
 
 
