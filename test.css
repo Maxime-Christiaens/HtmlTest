@@ -1,3 +1,9 @@
+/*Reset CSS classique*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
 	max-width: 90%;
 	margin-top: 50px;
@@ -12,6 +18,10 @@ body{
 	background: -webkit-linear-gradient(123deg, rgb(139, 193, 241), rgb(6, 41, 63));
 	background: linear-gradient(123deg, rgb(139, 193, 241), rgb(6, 41, 63));
 	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
 }
 
 .main-menu{
@@ -71,11 +81,11 @@ img{
 	width:250px;
 	font-weight:bold;
 	color: #333300;
-	position: relative;
-	/*position: absolute;
+	/*position: relative;*/
+	position: absolute;
 	top: 0;
 	right: 50%;
-	transform: translateX(50%); */
+	transform: translateX(50%);
 
 	  /* rajoute le code nécessaire ici*/
 }
