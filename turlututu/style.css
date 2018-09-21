@@ -1,0 +1,187 @@
+/*Cheat code*
+
+//Parent-containeur
+
+display:flex; Obligatoire !!!!!!!;
+
+flex-direction: row, row-reverse, column, column-reverse
+justify-content (gère l'axe des x pour row et l'axe des y pour column): flex-start, flex-end, center, space-between, space-around
+align-item (si direciton en row alors gère l'axe de y et l'axe x pour column): flex-start, flex-end, center, baseline, stretch
+align-content (pour les rangées quand il y a plusieurs étages):; (soit axe x ou y en fct de felx-direction) 
+flex-wrap:
+
+transform:translatex();
+
+
+
+//enfant-ul
+widht: %;
+
+//enfant-li
+order : (nombre +grand : dérrière et -: devant);
+align-self: flex-end, center, flex-start, stretch;
+
+
+transition-delay:;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+	font-family: 'Roboto', sans-serif;
+	background-color: #1E93CC
+
+}
+
+.debug{
+	border: 3px solid red;
+}
+
+header{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #323232;
+	font-size: 20px;
+	padding: 1em 0; 
+}
+
+.menu{
+	display: flex;
+}
+
+.menu ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.menu ul li{
+	padding: 0 25px;
+}
+
+.log {
+	justify-content: flex-end;
+}
+
+
+.PD1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #1E93CC;
+	align-items: center;
+	color: white;
+	height: 312px;
+	width: 100%;
+}
+
+.gay {
+	width: 25%;
+	height: 25%;
+}
+
+.PD1 div:nth-child(2){
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titre {
+	padding: 1em 0;
+}
+
+.PD1 img{
+	height: 250px ;
+}
+
+.empty{
+	background-image: url('imgs/invisble.png');
+}
+
+.msg {
+	padding: 20px 20px;
+	text-align: center;
+	background-color: white;
+	width: 100%;
+}
+
+.wrap{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	background-color: #1E93CC;
+	font-size: 20px;
+	padding: 1em 0; 
+	height: 500px;
+	max-width: 80%;
+	margin: auto; /*permet de centrer*/
+}
+
+.wrap div{
+	width: 50%;
+	padding: 20px;
+
+}
+
+.thomas{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 60%;
+	margin: auto;
+	padding: 1em 0;
+}
+
+.thomas img{
+	width: calc(100% / 6);
+	margin: 0;
+	padding: 0;
+}
+
+.memes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 70%;
+	margin: auto;
+	padding: 1em 0;
+	background-color: white;
+	width: 100%;
+}
+
+.memes a{
+	margin: 0 2.5px;
+	padding: 10px 20px;
+	border: 3px solid orange;
+	border-radius: 10px;
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.foot{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #323232;
+	font-size: 20px;
+	padding: 1em 0; 
+}
+
+.foot_list{
+	display: inline;
+}
+
